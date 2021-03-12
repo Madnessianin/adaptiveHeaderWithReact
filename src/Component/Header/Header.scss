@@ -80,11 +80,11 @@
 }
 
 .nav_item--right .nav_link {
-    margin: 8px 0;
-    padding: 8px 12px 8px 0;
-  }
-  .nav_item--right .nav_link:last-child {
-    padding-right: 0;
+  margin: 8px 0;
+  padding: 8px 12px 8px 0;
+}
+.nav_item--right .nav_link:last-child {
+  padding-right: 0;
 }
 
 .nav_item--right .nav_link--coins {
@@ -104,8 +104,6 @@
   font-weight: 400;
 }
 
-
-
 /* nav_menu */
 
 .nav_menu_item {
@@ -124,11 +122,12 @@
 }
 .menu_active {
   opacity: 1;
+  z-index: 3;
 }
 .nav_menu_item:before {
   content: "";
   position: relative;
-  top: -30px;
+  top: -25px;
   right: -110px;
   width: 0;
   height: 0;
@@ -249,11 +248,12 @@
     display: none;
   }
   /* .nav_menu_item, */
-  #profile_menu {
-    display: flex;
-  }
+  #profile_menu,
   #menu_icon {
     display: flex;
+  }
+  .nav_menu_item--right {
+    display: block;
   }
 }
 
@@ -262,14 +262,13 @@
   #checks_menu {
     display: flex;
   }
-  .nav_menu_item {
-    display: block;
-  }
   #checks,
   .header_logo_title {
     display: none;
   }
-
+  .nav_menu_item--left {
+    display: block;
+  }
   .header_logo {
     padding-right: 8px;
   }
