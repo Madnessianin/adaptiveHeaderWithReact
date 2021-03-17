@@ -215,7 +215,7 @@ const ElementLi = ({ elem, className, flags }) => {
       onClick={isAction ? () => setAction(elem) : null}
       className={`${wrapper} ${wrapper}--${id}`}
     >
-      <img className={imgClass} src={img} alt="" />
+      <img className={imgClass} src={img} style={{width: size, height: size}} alt="" />
       {isTitle ? <span className={titleClass}>{title}</span> : null}
     </li>
   );
@@ -229,7 +229,7 @@ const NavItem = ({ elements, id, addElem, classList, flags }) => {
         <ElementLi key={item.id} elem={item} className={child} flags={flags} />
       );
     }
-    return <></>;
+    return null;
   });
 
   return (
