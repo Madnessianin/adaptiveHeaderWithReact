@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.scss";
 import Header from "./Component/Header/Header";
-import data from "./JSON/data.json";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
-      <Header data={data} />
+      <Header />
     </div>
   );
-}
+};
 
 export default App;

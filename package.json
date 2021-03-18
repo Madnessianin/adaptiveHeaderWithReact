@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "babel-polyfill": "^6.26.0",
-    "json-loader": "^0.5.7",
     "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
