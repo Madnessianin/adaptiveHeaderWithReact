@@ -58,7 +58,7 @@ const Header = (props) => {
               elements={
                 stateHeader.mobileTitle
                   ? editIdElement([stateHeader.mobileTitle], "_title")
-                  : [null]
+                  : []
               }
               classList={{
                 main: "nav_item",
