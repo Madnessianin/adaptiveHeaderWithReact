@@ -2,88 +2,88 @@
   "logo": {
     "id": "logo",
     "title": "Libra",
-    "img": "assets/img/logo.svg",
+    "img": "/adaptiveHeaderWithReact/assets/img/logo.svg",
     "size": "24px"
   },
   "iconsLeft": [
     {
       "id": "task",
       "title": "task",
-      "img": "assets/img/task.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/task.svg",
       "size": "24px"
     },
     {
       "id": "calendar",
       "title": "calendar",
-      "img": "assets/img/calendar.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/calendar.svg",
       "size": "24px"
     },
     {
       "id": "staff",
       "title": "staff",
-      "img": "assets/img/staff.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/staff.svg",
       "width": "24px"
     },
     {
       "id": "replacement",
       "title": "replacement",
-      "img": "assets/img/replacement.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/replacement.svg",
       "size": "24px"
     },
     {
       "id": "link",
       "title": "link",
-      "img": "assets/img/link.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/link.svg",
       "size": "24px"
     },
     {
       "id": "education",
       "title": "education",
-      "img": "assets/img/education.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/education.svg",
       "size": "24px"
     },
     {
       "id": "game",
       "title": "game",
-      "img": "assets/img/game.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/game.svg",
       "size": "24px"
     },
     {
       "id": "feedback",
       "title": "feedback",
-      "img": "assets/img/feedback.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/feedback.svg",
       "size": "24px"
     },
     {
       "id": "checks",
       "title": "checks",
-      "img": "assets/img/checks.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/checks.svg",
       "size": "24px"
     }
   ],
   "coins": {
     "id": "coins",
     "title": "146480",
-    "img": "assets/img/coins.svg",
+    "img": "/adaptiveHeaderWithReact/assets/img/coins.svg",
     "size": "24px"
   },
   "iconsRight": [
     {
       "id": "bell",
       "title": "Notifications",
-      "img": "assets/img/bell.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/bell.svg",
       "size": "24px"
     },
     {
       "id": "men",
       "title": "Profile",
-      "img": "assets/img/men.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/men.svg",
       "size": "24px"
     },
     {
       "id": "out",
       "title": "Log out",
-      "img": "assets/img/out.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/out.svg",
       "size": "24px"
     }
   ],
@@ -91,17 +91,17 @@
     {
       "id": "more",
       "title": "more",
-      "img": "assets/img/more.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/more.svg",
       "size": "24px"
     },
     {
       "id": "mobile",
-      "img": "assets/img/mobile.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/mobile.svg",
       "size": "24px"
     },
     {
       "id": "profile",
-      "img": "assets/img/men.svg",
+      "img": "/adaptiveHeaderWithReact/assets/img/men.svg",
       "size": "24px"
     }
   ]
